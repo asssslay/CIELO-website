@@ -1,3 +1,43 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
-}
+import {
+  Hero,
+  Experience,
+  FoundersNote,
+  Philosophy,
+  UsedMaterials,
+  Benefits,
+  FindHome,
+  Footer,
+} from "./sections";
+import Nav from "./components/Nav";
+
+const App = () => (
+  <main className="relative">
+    <Nav />
+    <section className="">
+      <Hero />
+    </section>
+    <section className="">
+      <Experience />
+    </section>
+    <section className="">
+      <FoundersNote />
+    </section>
+    <section className="">
+      <Philosophy />
+    </section>
+    <section className="">
+      <UsedMaterials />
+    </section>
+    <section className="">
+      <Benefits />
+    </section>
+    <section className="">
+      <FindHome />
+    </section>
+    <section className="">
+      <Footer />
+    </section>
+  </main>
+);
+
+export default App;
