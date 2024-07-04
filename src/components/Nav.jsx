@@ -2,13 +2,12 @@ import { assetPaths, navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="pl-28 py-5 border border-cyan-300">
-      <nav className="flex justify-between items-center max-container ml-0 border border-purple-300 bg-slate-600">
+    <header className="absolute top-0 left-0 w-full z-10 pl-28 pr-[188px] py-5">
+      <nav className="flex justify-between items-center">
         <a href="/">
           <img src={assetPaths.headerLogo} alt="Logo" width={98} height={32} />
         </a>
-
-        <ul>
+        <ul className="flex space-x-6">
           {navLinks.map((link) => (
             <li key={link.label}>
               <a
@@ -20,8 +19,6 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-
-        {/* hamburger menu */}
       </nav>
     </header>
   );

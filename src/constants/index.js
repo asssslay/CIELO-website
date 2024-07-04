@@ -3,6 +3,8 @@ export const assetPaths = {
   footerLogo: "/assets/icons/footerLogo.svg",
   exploreIcon: "/assets/icons/exploreIcon.svg",
   quotes: "/assets/icons/quotes.svg",
+  backgroundLogo: "/assets/images/backgroundLogo.svg",
+  hero: "/assets/images/hero.png",
 };
 export const navLinks = [
   { href: "#", label: "Products" },
