@@ -2,8 +2,8 @@ import { assetPaths, navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="absolute top-0 left-0 w-full z-10 pl-28 pr-[188px] py-5">
-      <nav className="flex justify-between items-center">
+    <header className="w-full z-20 p-5 md:pl-28 md:pr-36 lg:pr-[188px] md:py-5 2xl:pl-32 2xl:pr-60 absolute top-0 left-0">
+      <nav className="max-w-container mx-auto flex justify-between items-center">
         <a href="/">
           <img src={assetPaths.headerLogo} alt="Logo" width={98} height={32} />
         </a>

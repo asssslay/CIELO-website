@@ -12,3 +12,9 @@ export const navLinks = [
   { href: "#", label: "About" },
   { href: "#-us", label: "Contact" },
 ];
+
+export const statistics = [
+  { value: "20", label: "Years Experience" },
+  { value: "4k+", label: "Unique Assortment" },
+  { value: "3k+", label: "Project Finished" },
+];
