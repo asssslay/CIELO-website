@@ -2,11 +2,13 @@ import { statistics } from "../constants/index";
 
 const Statistics = () => {
   return (
-    <div className="flex justify-around">
+    <div className="flex justify-between  w-full">
       {statistics.map((stat, index) => (
-        <div key={index} className="text-center">
-          <div className="text-4xl font-bold text-brown-500">{stat.value}</div>
-          <div className="text-xl text-gray-700">{stat.label}</div>
+        <div key={index} className="text-left ">
+          <div className="text-[108px] text-rusticBrown font-cabinet mb-8">
+            {stat.value}
+          </div>
+          <div className="text-2xl font-manrope">{stat.label}</div>
         </div>
       ))}
     </div>

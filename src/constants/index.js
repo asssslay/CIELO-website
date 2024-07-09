@@ -5,6 +5,12 @@ export const assetPaths = {
   quotes: "/assets/icons/quotes.svg",
   backgroundLogo: "/assets/images/backgroundLogo.svg",
   hero: "/assets/images/hero.png",
+  experience: "/assets/images/experience.png",
+  foundersNote: "/assets/images/foundersNote.png",
+  philosophy: "/assets/images/philosophy.png",
+  usedMaterials: "/assets/images/usedMaterials.png",
+  benefits: "/assets/images/benefits.png",
+  findHome: "/assets/images/findHome.png",
 };
 export const navLinks = [
   { href: "#", label: "Products" },

@@ -4,7 +4,7 @@ import { assetPaths } from "../constants";
 const Hero = () => {
   return (
     <section
-      className="relative mb-10 bg-cover bg-center bg-no-repeat h-screen"
+      className="relative bg-cover bg-center bg-no-repeat h-screen"
       style={{ backgroundImage: `url(${assetPaths.hero})` }}
     >
       <div className="relative z-10 text-white p-8 md:p-20 max-w-container mx-auto flex items-end justify-end h-full">
