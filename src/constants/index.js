@@ -6,16 +6,17 @@ export const assetPaths = {
   backgroundLogo: "/assets/images/backgroundLogo.svg",
   hero: "/assets/images/hero.png",
   experience: "/assets/images/experience.png",
-  foundersNote: "/assets/images/foundersNote.png",
-  philosophy: "/assets/images/philosophy.png",
-  usedMaterials: "/assets/images/usedMaterials.png",
+  founder: "/assets/images/founder.png",
   benefits: "/assets/images/benefits.png",
-  findHome: "/assets/images/findHome.png",
+  philosophy: "/assets/images/philosophy.png",
+  leatherMaterial: "/assets/images/leatherMaterial.png",
+  playMaterial: "/assets/images/playMaterial.png",
+  metalMaterial: "/assets/images/metalMaterial.png",
+  woodMaterial: "/assets/images/woodMaterial.png",
 };
 export const navLinks = [
   { href: "#", label: "Products" },
   { href: "#-us", label: "Services" },
-  { href: "#", label: "About" },
   { href: "#-us", label: "Contact" },
 ];
 
