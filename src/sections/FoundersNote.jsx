@@ -2,7 +2,7 @@ import { assetPaths } from "../constants";
 
 const FoundersNote = () => {
   return (
-    <section className="max-container ml-[132px]  mb-[180px] flex flex-row gap-2 relative">
+    <section className="max-container ml-[132px] mt-[272px] mb-[180px] flex flex-row gap-2 relative">
       <div className="flex flex-col gap-8">
         <img src={assetPaths.quotes} className="max-w-12 max-h-12" />
         <p className="max-w-[878px] font-manrope text-2xl leading-[40px]">
