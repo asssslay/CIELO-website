@@ -11,6 +11,7 @@ export default {
         cabinet: ["Cabinet Grotesk", "sans-serif"],
         darker: ["Darker Grotesque", "sans-serif"],
         manrope: ["Manrope", "sans-serif"],
+        ubuntu: ["Ubuntu", "sans-serif"],
       },
       screens: {
         xs: "475px",

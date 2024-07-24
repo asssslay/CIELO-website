@@ -19,7 +19,7 @@ const App = () => (
     <section className="">
       <Experience />
     </section>
-    <section className="">
+    <section className="py-[180px]">
       <FoundersNote />
     </section>
     <section className="">
