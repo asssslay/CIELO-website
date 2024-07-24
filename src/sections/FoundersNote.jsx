@@ -15,7 +15,11 @@ const FoundersNote = () => {
         </p>
       </div>
       <div className="flex gap-8 items-center justify-center absolute bottom-[-60px] right-28">
-        <img src={assetPaths.founder} className="max-w-20 max-h-20" />
+        <img
+          src={assetPaths.founder}
+          className="max-w-20 max-h-20"
+          alt="Founder photo"
+        />
         <p className="text-2xl font-ubuntu">Leslie Alexander</p>
       </div>
     </section>
