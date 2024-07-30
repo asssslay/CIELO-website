@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section className="relative flex max-container">
       <div className="mt-[156px] ml-16 mr-8 lg:ml-[132px] z-10">
-        <h2 className="font-cabinet text-2xl xs:text-3xl md:text-5xl lg:text-7xl xl:text-[88px] 2xl:text-8xl mb-10">
+        <h2 className="h2-custom mb-10">
           We provide you the
           <br />
           best experience.

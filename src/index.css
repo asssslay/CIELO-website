@@ -13,15 +13,17 @@
   scroll-behavior: smooth;
 }
 
-body {
-  /* background: linear-gradient(to right, #b88e53, #d6b396, #9f8b6e); */
-}
-
 @layer components {
   .max-container {
     /* max-width: 1440px; */
     max-width: 1536px;
     margin: 0 auto;
     background-color: transparent;
+  }
+}
+
+@layer utilities {
+  .h2-custom {
+    @apply font-cabinet text-2xl xs:text-3xl md:text-5xl lg:text-7xl xl:text-[88px] 2xl:text-8xl;
   }
 }
