@@ -7,9 +7,9 @@ const Hero = () => {
       className="relative bg-cover bg-center bg-no-repeat h-screen"
       style={{ backgroundImage: `url(${assetPaths.hero})` }}
     >
-      <div className="relative z-10 text-white p-8 md:p-20 container mx-auto flex items-end justify-end h-full">
+      <div className="relative z-10 text-white pb-8 md:pb-20 container mx-auto flex items-end justify-end h-full">
         <div className="text-left mb-28 ml-10 md:ml-20 lg:mb-8 lg:ml-24 xl:mb-0 xl:ml-28 2xl:ml-32">
-          <h1 className="font-cabinet text-[40px] md:text-6xl lg:text-[88px] xl:text-[100px] 2xl:text-[120px] ">
+          <h1 className="font-cabinet text-[40px] md:text-6xl lg:text-[88px] xl:text-[100px] 2xl:text-[120px]">
             You buy a house,
             <br />
             we make it a home.

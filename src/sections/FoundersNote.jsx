@@ -2,10 +2,10 @@ import { assetPaths } from "../constants";
 
 const FoundersNote = () => {
   return (
-    <section className="container pl-[132px] mt-[272px] mb-[180px] flex flex-row gap-2 relative">
+    <section className="container pl-[52px] mt-[272px] mb-[180px] flex flex-row gap-2 relative">
       <div className="flex flex-col gap-8">
         <img src={assetPaths.quotes} className="max-w-12 max-h-12" />
-        <p className="max-w-[878px] font-manrope text-2xl leading-[40px]">
+        <p className="max-w-66ch font-manrope text-2xl leading-[40px]">
           Every piece of furniture that we make is signed by the person who made
           it, and the amount of pride that goes into that signature is
           unbelievable. You know, there are so few people in America today whose
