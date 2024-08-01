@@ -14,10 +14,9 @@ const Hero = () => {
             <br />
             we make it a home.
           </h1>
-          <p className="font-manrope text-lg md:text-xl lg:text-2xl mt-4 lg:mt-9 2xl:text-3xl mb-10 ">
-            Design is not just what it looks like and feels like.
-            {/* <br className="flex items-left justify-center md:hidden" /> */}
-            Design is how it works.
+          <p className="desc-custom font-manrope lg:mt-9 mb-10 mt-4">
+            Design is not just what it looks like and feels like. Design is how
+            it works.
           </p>
           <Button label="Explore" iconURL={assetPaths.exploreIcon} />
         </div>

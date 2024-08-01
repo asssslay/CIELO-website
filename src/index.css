@@ -26,4 +26,8 @@
   .h2-custom {
     @apply font-cabinet text-2xl xs:text-3xl md:text-5xl lg:text-7xl xl:text-[88px] 2xl:text-8xl;
   }
+
+  .desc-custom {
+    @apply text-lg md:text-xl lg:text-2xl 2xl:text-3xl;
+  }
 }

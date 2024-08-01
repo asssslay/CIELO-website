@@ -5,7 +5,7 @@ const FoundersNote = () => {
     <section className="container pl-[52px] mt-[272px] mb-[180px] flex flex-row gap-2 relative">
       <div className="flex flex-col gap-8">
         <img src={assetPaths.quotes} className="max-w-12 max-h-12" />
-        <p className="max-w-66ch font-manrope text-2xl leading-[40px]">
+        <p className="max-w-66ch desc-custom font-manrope leading-[40px]">
           Every piece of furniture that we make is signed by the person who made
           it, and the amount of pride that goes into that signature is
           unbelievable. You know, there are so few people in America today whose
@@ -14,13 +14,13 @@ const FoundersNote = () => {
           advantage.
         </p>
       </div>
-      <div className="flex gap-8 items-center justify-center absolute bottom-[-60px] right-28">
+      <div className="flex gap-8 items-center justify-center absolute bottom-[-70px] right-8">
         <img
           src={assetPaths.founder}
-          className="max-w-20 max-h-20"
+          className="max-w-10 max-h-10 xl:max-w-20 xl:max-h-20"
           alt="Founder photo"
         />
-        <p className="text-2xl font-ubuntu">Leslie Alexander</p>
+        <p className="desc-custom font-ubuntu">Leslie Alexander</p>
       </div>
     </section>
   );
