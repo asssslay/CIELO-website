@@ -4,7 +4,7 @@ import { assetPaths } from "../constants";
 const Experience = () => {
   return (
     <section className="relative flex container">
-      <div className="mt-[156px] ml-16 mr-8 lg:ml-[132px] z-10">
+      <div className="mt-[156px] pl-4 xs:pl-8 md:pl-16 lg:pl-[132px] mr-8 z-10">
         <h2 className="h2-custom mb-10">
           We provide you the
           <br />

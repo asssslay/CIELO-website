@@ -9,7 +9,7 @@ const Philosophy = () => {
           Minimalist.
         </h2>
       </div>
-      <div className="flex flex-col gap-9 ml-0 sm:ml-[380px] md:ml-[476px] lg:ml-[600px] xl:ml-[780px]">
+      <div className="flex flex-col gap-9 ml-40 xs:ml-52 sm:ml-[380px] md:ml-[476px] lg:ml-[600px] xl:ml-[780px]">
         <h3 className="font-darker text-xs xs:text-base md:text-xl lg:text-[28px] xl:text-[32px] font-bold">
           Our Philosophy,
         </h3>
@@ -22,7 +22,7 @@ const Philosophy = () => {
       </div>
       <img
         src={assetPaths.philosophy}
-        className="absolute left-0 top-[34px] max-w-48 xs:max-w-80 md:max-w-[400px] lg:max-w-[500px] xl:max-w-[608px] max-h-[450px] -z-10"
+        className="absolute left-0 top-[34px] max-w-36 xs:max-w-48 sm:max-w-80 md:max-w-[400px] lg:max-w-[500px] xl:max-w-[608px] max-h-[450px] -z-10"
         alt="Philosophy background"
       />
     </section>
