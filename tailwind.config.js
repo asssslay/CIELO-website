@@ -28,9 +28,38 @@ export default {
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
-        container: "1440px",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        ".container": {
+          width: "100%",
+          marginLeft: "auto",
+          marginRight: "auto",
+          paddingLeft: "0.5rem",
+          paddingRight: "0.5rem",
+          "@screen xs": {
+            maxWidth: "475px",
+          },
+          "@screen sm": {
+            maxWidth: "640px",
+          },
+          "@screen md": {
+            maxWidth: "768px",
+          },
+          "@screen lg": {
+            maxWidth: "1024px",
+          },
+          "@screen xl": {
+            maxWidth: "1280px",
+          },
+          "@screen 2xl": {
+            maxWidth: "1536px",
+          },
+        },
+      });
+    },
+  ],
 };

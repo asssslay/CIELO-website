@@ -3,7 +3,7 @@ import { assetPaths } from "../constants";
 
 const Experience = () => {
   return (
-    <section className="relative flex max-container">
+    <section className="relative flex container">
       <div className="mt-[156px] ml-16 mr-8 lg:ml-[132px] z-10">
         <h2 className="h2-custom mb-10">
           We provide you the
