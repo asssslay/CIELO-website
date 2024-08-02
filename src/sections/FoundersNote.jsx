@@ -17,7 +17,7 @@ const FoundersNote = () => {
       <div className="flex gap-8 items-center justify-center absolute bottom-[-70px] right-8">
         <img
           src={assetPaths.founder}
-          className="max-w-10 max-h-10 xl:max-w-20 xl:max-h-20"
+          className="max-w-10 max-h-10 xs:max-w-12 xs:max-h-12 md:max-w-14 md:max-h-14 lg:max-w-16 lg:max-h-16 xl:max-w-20 xl:max-h-20"
           alt="Founder photo"
         />
         <p className="desc-custom font-ubuntu">Leslie Alexander</p>
