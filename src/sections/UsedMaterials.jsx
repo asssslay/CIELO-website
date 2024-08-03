@@ -2,8 +2,8 @@ import { assetPaths } from "../constants";
 
 const UsedMaterials = () => {
   return (
-    <section className="container mb-[144px]">
-      <h3 className="font-cabinet tracking-tight text-7xl mb-14">
+    <section className="container mb-[144px] padding-left">
+      <h3 className="font-cabinet text-xl xs:text-2xl md:text-4xl lg:text-6xl xl:text-7xl mb-14">
         We use quality and
         <br />
         simple materials

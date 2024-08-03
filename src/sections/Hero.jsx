@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="relative z-10 text-white pb-20 md:pb-[88px] container mx-auto flex items-end justify-end h-full">
         <div className="text-left ml-10 md:ml-20 lg:ml-24 xl:ml-28 2xl:ml-32 ">
-          <h1 className="font-cabinet tracking-tight text-[40px] md:text-6xl lg:text-[88px] xl:text-[100px] 2xl:text-[120px]">
+          <h1 className="font-cabinet text-[40px] md:text-6xl lg:text-[88px] xl:text-[100px] 2xl:text-[120px]">
             You buy a house,
             <br />
             we make it a home.

@@ -2,9 +2,9 @@ import { assetPaths } from "../constants";
 
 const Philosophy = () => {
   return (
-    <section className="container relative mb-[125px]">
+    <section className="container relative mb-24 lg:mb-[125px]">
       <div className="flex justify-center w-full">
-        <h2 className="h2-custom leading-[98px] mb-9 tracking-tight">
+        <h2 className="h2-custom leading-[98px] mb-9">
           Futuristic &<br />
           Minimalist.
         </h2>
