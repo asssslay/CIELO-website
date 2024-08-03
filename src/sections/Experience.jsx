@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section className="relative flex container">
       <div className="mt-16 xs:mt-24 md:mt-32 lg:mt-[156px] padding-left mr-8 z-10">
-        <h2 className="h2-custom mb-10">
+        <h2 className="h2-custom mb-10 tracking-tight">
           We provide you the
           <br />
           best experience.

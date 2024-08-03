@@ -67,5 +67,13 @@ export default {
         },
       });
     },
+
+    function ({ addUtilities }) {
+      addUtilities({
+        ".tracking-tight": {
+          letterSpacing: "-2.4px",
+        },
+      });
+    },
   ],
 };
