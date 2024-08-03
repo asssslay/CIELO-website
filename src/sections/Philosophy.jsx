@@ -13,7 +13,7 @@ const Philosophy = () => {
         <h4 className="font-darker text-base xs:text-lg md:text-xl lg:text-[28px] xl:text-[32px] font-bold">
           Our Philosophy,
         </h4>
-        <p className="font-manrope text-sm xs:text-base md:text-lg lg:text-xl xl:text-2xl text-ashGray max-w-49ch xl:leading-9">
+        <p className="font-manrope text-sm xs:text-base md:text-lg lg:text-xl xl:text-2xl text-ashGray max-w-49ch xl:!leading-9">
           You don’t have to worry about the results because all of these
           interiors are made by people who are professionals in their fields
           with an elegant and luxurious style and with premium quality

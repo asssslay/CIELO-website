@@ -26,3 +26,18 @@ export const statistics = [
   { value: "4k+", label: "Unique Assortment" },
   { value: "3k+", label: "Project Finished" },
 ];
+
+export const benefits = [
+  {
+    title: "Best Quality",
+    description: "We always provide high quality materials",
+  },
+  {
+    title: "Free Shipping",
+    description: "Every single order ships for free. No extra credit need.",
+  },
+  {
+    title: "30 Days Returns",
+    description: "Product returns are accepted within 30 days.",
+  },
+];
