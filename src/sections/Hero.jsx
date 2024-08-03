@@ -18,7 +18,11 @@ const Hero = () => {
             Design is not just what it looks like and feels like. Design is how
             it works.
           </p>
-          <Button label="Explore" iconURL={assetPaths.exploreIcon} />
+          <Button
+            label="Explore"
+            iconURL={assetPaths.exploreIcon}
+            newIconURL={assetPaths.exploreIconNew}
+          />
         </div>
       </div>
     </section>

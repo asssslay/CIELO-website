@@ -2,6 +2,7 @@ export const assetPaths = {
   headerLogo: "/assets/icons/headerLogo.svg",
   footerLogo: "/assets/icons/footerLogo.svg",
   exploreIcon: "/assets/icons/exploreIcon.svg",
+  exploreIconNew: "/assets/icons/exploreIconNew.svg",
   quotes: "/assets/icons/quotes.svg",
   backgroundLogo: "/assets/images/backgroundLogo.svg",
   hero: "/assets/images/hero.png",

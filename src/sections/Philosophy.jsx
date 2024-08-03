@@ -10,10 +10,10 @@ const Philosophy = () => {
         </h2>
       </div>
       <div className="flex flex-col gap-9 ml-40 xs:ml-52 sm:ml-[380px] md:ml-[476px] lg:ml-[600px] xl:ml-[780px]">
-        <h3 className="font-darker text-xs xs:text-base md:text-xl lg:text-[28px] xl:text-[32px] font-bold">
+        <h3 className="font-darker text-sm xs:text-base md:text-xl lg:text-[28px] xl:text-[32px] font-bold">
           Our Philosophy,
         </h3>
-        <p className="font-manrope text-base xs:text-sm md:text-lg lg:text-xl xl:text-2xl text-ashGray max-w-49ch xl:leading-9">
+        <p className="font-manrope text-sm md:text-lg lg:text-xl xl:text-2xl text-ashGray max-w-49ch xl:leading-9">
           You don’t have to worry about the results because all of these
           interiors are made by people who are professionals in their fields
           with an elegant and luxurious style and with premium quality
