@@ -6,6 +6,7 @@ export default {
       colors: {
         rusticBrown: "rgb(130, 68, 30)",
         ashGray: "rgb(88, 88, 88)",
+        neutralGray: "rgb(85, 85, 85)",
       },
       fontFamily: {
         cabinet: ["Cabinet Grotesk", "sans-serif"],
@@ -28,12 +29,18 @@ export default {
         lg: "1024px",
         xl: "1280px",
         "2xl": "1536px",
-        "66ch": "66ch",
+        "29ch": "29ch",
+        "30ch": "30ch",
+        "31ch": "31ch",
         "49ch": "49ch",
+        "66ch": "66ch",
       },
       spacing: {
-        "max-w-66ch": "66ch",
+        "max-w-29ch": "29ch",
+        "max-w-30ch": "30ch",
+        "max-w-31ch": "31ch",
         "max-w-49ch": "49ch",
+        "max-w-66ch": "66ch",
       },
       lineHeight: {
         9: "2.25rem",

@@ -32,6 +32,6 @@
   }
 
   .padding-left {
-    @apply pl-6 xs:pl-8 md:pl-16 lg:pl-[132px];
+    @apply pl-6 xs:pl-8 md:pl-16 lg:pl-20 xl:pl-[132px];
   }
 }

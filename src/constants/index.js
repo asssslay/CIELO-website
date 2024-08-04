@@ -30,7 +30,7 @@ export const statistics = [
 export const benefits = [
   {
     title: "Best Quality",
-    description: "We always provide high quality materials",
+    description: `We always provide high quality materials`,
   },
   {
     title: "Free Shipping",
