@@ -6,7 +6,7 @@ const FoundersNote = () => {
       <div className="padding-left">
         <div className="flex flex-col gap-8">
           <img src={assetPaths.quotes} className="max-w-12 max-h-12" />
-          <p className="max-w-66ch desc-custom font-manrope">
+          <p className="max-w-62ch desc-custom font-manrope">
             Every piece of furniture that we make is signed by the person who
             made it, and the amount of pride that goes into that signature is
             unbelievable. You know, there are so few people in America today

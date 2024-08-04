@@ -33,14 +33,14 @@ export default {
         "30ch": "30ch",
         "31ch": "31ch",
         "49ch": "49ch",
-        "66ch": "66ch",
+        "62ch": "62ch",
       },
       spacing: {
         "max-w-29ch": "29ch",
         "max-w-30ch": "30ch",
         "max-w-31ch": "31ch",
         "max-w-49ch": "49ch",
-        "max-w-66ch": "66ch",
+        "max-w-62ch": "62ch",
       },
       lineHeight: {
         9: "2.25rem",

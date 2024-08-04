@@ -1,4 +1,6 @@
-@import url("https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400&family=Darker+Grotesque:wght@500;600;700&family=Manrope:wght@400;500&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url();
 
@@ -28,7 +30,7 @@
   }
 
   .desc-custom {
-    @apply text-lg md:text-xl lg:text-2xl lg:!leading-10 2xl:text-3xl;
+    @apply text-lg md:text-xl lg:text-2xl lg:!leading-10 2xl:text-3xl 2xl:!leading-normal;
   }
 
   .padding-left {
