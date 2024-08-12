@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         rusticBrown: "rgb(130, 68, 30)",
+        milkWhite: "rgb(239, 239, 239)",
         ashGray: "rgb(88, 88, 88)",
         neutralGray: "rgb(85, 85, 85)",
       },
