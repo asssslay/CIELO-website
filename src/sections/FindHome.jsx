@@ -16,7 +16,9 @@ const FindHome = () => {
         label="Get In Touch"
         iconURL={assetPaths.exploreIcon}
         newIconURL={assetPaths.exploreIconNew}
-        className={"font-darker font-semibold"}
+        className={
+          "font-darker font-semibold text-sm xs:text-base md:text-lg  lg:text-[22px] 2xl:text-3xl"
+        }
       />
     </section>
   );

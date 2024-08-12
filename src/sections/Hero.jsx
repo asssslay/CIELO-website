@@ -22,7 +22,7 @@ const Hero = () => {
             label="Explore"
             iconURL={assetPaths.exploreIcon}
             newIconURL={assetPaths.exploreIconNew}
-            className="font-manrope uppercase"
+            className="font-manrope uppercase text-xl md:text-2xl lg:text-[26px] 2xl:text-4xl"
           />
         </div>
       </div>
