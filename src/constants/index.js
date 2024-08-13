@@ -43,3 +43,18 @@ export const benefits = [
     description: "Product returns are accepted within 30 days.",
   },
 ];
+
+export const footerNavLinks = [
+  {
+    title: "",
+    links: ["Home", "About", "Our Blog", "FAQ"],
+  },
+  {
+    title: "",
+    links: ["Contact", "Privacy Policy", "Refund policy"],
+  },
+  {
+    title: "",
+    links: ["Bestsellers", "Featured", "New Arrivals", "Our Brands"],
+  },
+];

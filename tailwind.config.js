@@ -8,6 +8,8 @@ export default {
         milkWhite: "rgb(239, 239, 239)",
         ashGray: "rgb(88, 88, 88)",
         neutralGray: "rgb(85, 85, 85)",
+        deepBlack: "rgb(19, 19, 19)",
+        softGray: "rgb(250, 250, 251)",
       },
       fontFamily: {
         cabinet: ["Cabinet Grotesk", "sans-serif"],

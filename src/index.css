@@ -40,4 +40,8 @@
   .benefits-img {
     @apply max-w-44 max-h-48 xs:max-h-[270px] sm:max-w-64 sm:max-h-[360px] md:max-w-[325px] md:max-h-[450px] lg:max-w-[425px] lg:max-h-[600px] xl:max-w-[525px] xl:max-h-[690px];
   }
+
+  .active-link {
+    @apply text-deepBlack;
+  }
 }
