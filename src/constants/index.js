@@ -16,6 +16,7 @@ export const assetPaths = {
   woodMaterial: "/assets/images/woodMaterial.png",
   backgroundCTA: "/assets/images/backgroundCTA.png",
   backgroundCTA1: "/assets/images/backgroundCTA1.svg",
+  cursorNew: "/assets/icons/cursorNew.svg",
 };
 export const navLinks = [
   { href: "#", label: "Products" },
