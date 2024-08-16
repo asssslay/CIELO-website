@@ -7,8 +7,10 @@ const Footer = () => {
     <footer className="pt-[60px] pb-5 bg-softGray">
       <div className="relative z-10 container mx-auto">
         <div className="flex items-start padding-left mb-[18px]">
-          <img src={assetPaths.footerLogo} className="mr-24 xl:mr-36" />
-          <FooterNav />
+          <div className="flex items-start max-lg:flex-col   max-lg:gap-12">
+            <img src={assetPaths.footerLogo} className="mr-24 xl:mr-36" />
+            <FooterNav />
+          </div>
           <div className="ml-28 xl:ml-[202px]">
             <p className="font-darker text-base mb-4 font-medium">
               Stay up-to-date on our latest listings and <br />
