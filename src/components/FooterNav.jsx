@@ -3,10 +3,10 @@ import { footerNavLinks } from "../constants/index";
 
 const FooterNav = () => {
   return (
-    <div className="flex flex-wrap gap-12 max-md:gap-y-10 xl:gap-[60px]">
+    <div className="flex flex-wrap gap-10 sm:gap-12 max-md:gap-y-10 xl:gap-[60px]">
       {footerNavLinks.map((section, index) => (
         <div key={index} className="flex flex-col">
-          <ul className="flex flex-col gap-4">
+          <ul className="flex flex-col gap-3 lg:gap-4">
             {section.links.map((link, linkIndex) => (
               <li
                 key={linkIndex}
