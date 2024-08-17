@@ -10,6 +10,7 @@ export default {
         neutralGray: "rgb(85, 85, 85)",
         deepBlack: "rgb(19, 19, 19)",
         softGray: "rgb(250, 250, 251)",
+        mistyTaupe: "rgb(183,156,134)",
       },
       fontFamily: {
         cabinet: ["Cabinet Grotesk", "sans-serif"],

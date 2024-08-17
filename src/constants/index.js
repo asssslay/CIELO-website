@@ -25,6 +25,15 @@ export const navLinks = [
   { href: "#-us", label: "Contact" },
 ];
 
+export const menuAboutLinks = {
+  title: "Who we are",
+  links: [
+    { href: "#about", label: "About" },
+    { href: "#blog", label: "Our Blog" },
+    { href: "#FAQ", label: "FAQ" },
+  ],
+};
+
 export const statistics = [
   { value: "20", label: "Years Experience" },
   { value: "4k+", label: "Unique Assortment" },
