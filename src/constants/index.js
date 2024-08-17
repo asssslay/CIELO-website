@@ -17,6 +17,7 @@ export const assetPaths = {
   backgroundCTA: "/assets/images/backgroundCTA.png",
   backgroundCTA1: "/assets/images/backgroundCTA1.svg",
   cursorNew: "/assets/icons/cursorNew.svg",
+  menu: "/assets/icons/menu.svg",
 };
 export const navLinks = [
   { href: "#", label: "Products" },

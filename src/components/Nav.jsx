@@ -1,4 +1,5 @@
 import { assetPaths, navLinks } from "../constants";
+import NavButton from "./NavButton";
 
 const Nav = () => {
   return (
@@ -19,6 +20,7 @@ const Nav = () => {
             </li>
           ))}
         </ul>
+        <NavButton />
       </nav>
     </header>
   );
