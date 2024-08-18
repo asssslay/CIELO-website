@@ -35,7 +35,7 @@ const Footer = () => {
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[10px] lg:text-xs font-manrope"
+                className="text-[10px] lg:text-xs font-manrope hover:underline"
               >
                 Instagram
               </a>
@@ -43,7 +43,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[10px] lg:text-xs font-manrope"
+                className="text-[10px] lg:text-xs font-manrope hover:underline"
               >
                 LinkedIn
               </a>
@@ -51,7 +51,7 @@ const Footer = () => {
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-[10px] lg:text-xs font-manrope"
+                className="text-[10px] lg:text-xs font-manrope hover:underline"
               >
                 Facebook
               </a>

@@ -1,16 +1,21 @@
 import { useState, useEffect } from "react";
 import { assetPaths, navLinks, menuAboutLinks } from "../constants";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Nav = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
+  const [textVisible, setTextVisible] = useState(false); // Control text appearance
 
   const toggleMenu = () => {
     if (!isMenuOpen) {
       setMenuVisible(true);
       setTimeout(() => setMenuOpen(true), 10);
+      // Delay for the text appearance after the menu is open
+      setTimeout(() => setTextVisible(true), 300); // Text will appear 300ms after the menu
     } else {
       setMenuOpen(false);
+      setTextVisible(false); // Hide the text immediately when closing
       setTimeout(() => setMenuVisible(false), 700);
     }
   };
@@ -18,10 +23,8 @@ const Nav = () => {
   // Use effect to add or remove scroll lock
   useEffect(() => {
     if (isMenuOpen) {
-      // Disable scrolling
       document.body.style.overflow = "hidden";
     } else {
-      // Enable scrolling
       document.body.style.overflow = "auto";
     }
   }, [isMenuOpen]);
@@ -31,13 +34,13 @@ const Nav = () => {
     const handleResize = () => {
       if (window.innerWidth >= 768 && isMenuOpen) {
         setMenuOpen(false);
-        setTimeout(() => setMenuVisible(false), 700); // Ensure smooth closing
+        setTextVisible(false); // Ensure the text is hidden when the menu closes
+        setTimeout(() => setMenuVisible(false), 700);
       }
     };
 
     window.addEventListener("resize", handleResize);
 
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -56,13 +59,12 @@ const Nav = () => {
             />
           </a>
 
-          {/* Conditionally render ul only if the menu is not open */}
           {!isMenuOpen && (
             <ul className="hidden md:flex md:space-x-6">
               {navLinks.map((link, index) => (
                 <li key={index}>
                   <a
-                    className="font-manrope leading-normal text-lg 2xl:text-xl text-white"
+                    className="font-manrope leading-normal text-lg 2xl:text-xl text-white hover:text-milkWhite"
                     href={link.href}
                   >
                     {link.label}
@@ -99,36 +101,65 @@ const Nav = () => {
             background: "linear-gradient(-40deg, #743E11 -12%, #CAB4A5 100%)",
           }}
         >
-          <div className="flex flex-col gap-1 pl-20">
-            {navLinks.map((link, index) => (
-              <a
-                key={index}
-                href={link.href}
-                className="text-3xl xs:text-4xl font-cabinet hover:underline"
+          {/* Only show the text after the menu appears */}
+          <AnimatePresence>
+            {textVisible && (
+              <motion.div
+                className="flex flex-col gap-1 pl-20"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1.2 }} // Increased duration for smoother text appearance
               >
-                {link.label}
-              </a>
-            ))}
-          </div>
+                {navLinks.map((link, index) => (
+                  <motion.a
+                    key={index}
+                    href={link.href}
+                    className="text-3xl xs:text-4xl font-cabinet hover:underline"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ delay: index * 0.2, duration: 0.8 }} // Longer duration for staggered text
+                  >
+                    {link.label}
+                  </motion.a>
+                ))}
+              </motion.div>
+            )}
+          </AnimatePresence>
 
-          <div className="flex gap-20 xs:gap-32 sm:gap-40 mt-28 w-full text-lg pl-20">
-            <div className="text-milkWhite opacity-90">
-              <p className="text-lg xs:text-xl font-darker">
-                {menuAboutLinks.title}
-              </p>
-            </div>
-            <div className="flex flex-col">
-              {menuAboutLinks.links.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  className="text-milkWhite text-lg xs:text-xl font-darker"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </div>
+          <AnimatePresence>
+            {textVisible && (
+              <motion.div
+                className="flex gap-20 xs:gap-32 sm:gap-40 mt-28 w-full text-lg pl-20"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1.2 }} // Increased duration for smoother text appearance
+              >
+                <div className="text-milkWhite opacity-90">
+                  <p className="text-lg xs:text-xl font-darker">
+                    {menuAboutLinks.title}
+                  </p>
+                </div>
+                <div className="flex flex-col">
+                  {menuAboutLinks.links.map((link, index) => (
+                    <motion.a
+                      key={index}
+                      href={link.href}
+                      className="text-milkWhite text-lg xs:text-xl font-darker"
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0 }}
+                      transition={{ delay: index * 0.2, duration: 0.6 }} // Longer duration for smoother text appearance
+                    >
+                      {link.label}
+                    </motion.a>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       )}
     </>
